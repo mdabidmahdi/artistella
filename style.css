@@ -1,0 +1,76 @@
+
+
+:root {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0rem;
+  padding: 0rem;
+
+  
+}
+body{
+  font-size: 1.6%;
+ 
+}
+
+nav ul{
+  display:flex;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 2rem;
+  gap:4.0rem;
+  color:azure;
+  padding:2.0rem 1.0rem 4.0rem 1.0rem;
+  margin:0;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding:1rem 2rem;
+  font-size:7.0rem;
+  color:white;
+  text-align:center;
+  margin:0;
+
+}
+
+.navBackground{
+ 
+  margin: 0 auto;
+  width:50%;
+  background-color: #2a2a29;
+  clip-path: polygon(0 0, 100% 0, 90% 80%, 10% 80%);
+  border-radius: 1.0rem;
+  
+  
+}
+
+nav{
+  background-repeat: round;
+  background-image: url("/image.jpg");
+}
+
+.searchBox{
+  font-size:1.7rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 59.0rem;
+}
+
+.searchBtn{
+  width: 5%;
+  padding: 5px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border:1px solid grey;
+  
+  cursor: pointer;
+}
+.searchBtn:hover{
+  background:#136faa ;
+}
+.srch{
+  display:flex;
+  justify-content: center;
+  padding: 2.0rem;
+}
