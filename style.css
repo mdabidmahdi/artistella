@@ -1,5 +1,7 @@
 
-
+body{
+  height:5000px;
+}
 :root {
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
@@ -17,59 +19,82 @@ nav ul{
   display:flex;
   justify-content: center;
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 1.7rem;
   gap:4.0rem;
   color:azure;
-  padding:2.0rem 1.0rem 4.0rem 1.0rem;
-  margin:0;
+  padding:1rem 0rem 3rem 0rem;
+  margin:0rem 0rem;
+ 
+}
+
+nav ul a{
+  color:white;
+  text-decoration: none ;
+}
+
+nav ul a:hover{
+  color: #b8b8b8
 }
 
 h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding:1rem 2rem;
-  font-size:7.0rem;
+  font-size:10rem;
   color:white;
   text-align:center;
   margin:0;
-
+  -webkit-text-stroke:  .1rem black;
+  translate: 0rem 2.0rem ;
+  z-index: -10;
+  
 }
 
 .navBackground{
- 
+  top:0%;
+  left: 25%;
+  position: fixed;
   margin: 0 auto;
   width:50%;
   background-color: #2a2a29;
   clip-path: polygon(0 0, 100% 0, 90% 80%, 10% 80%);
- 
+  border-radius: 1.0rem;
+  z-index: 1;
   
 }
 
 nav{
+  
   background-repeat: round;
   background-image: url("/image.jpg");
+  background-size:contain;
 }
 
 .searchBox{
-  font-size:1.7rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:2.0rem;
+  font-family: 'Times New Roman', Times, serif;
   width: 59.0rem;
+  padding:.5rem;
 }
 
 .searchBtn{
   width: 5%;
-  padding: 5px;
+  padding: 0.5rem;
   background: #2196F3;
   color: white;
-  font-size: 17px;
-  border:1px solid grey;
-  
+  font-size: 1.7rem;
+  border:0.1rem solid grey;
   cursor: pointer;
 }
 .searchBtn:hover{
   background:#136faa ;
+}
+
+.searchBtn.searchBtn:active{
+  background: #0b3550
 }
 .srch{
   display:flex;
   justify-content: center;
   padding: 2.0rem;
 }
+
